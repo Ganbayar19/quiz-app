@@ -30,7 +30,10 @@ export default function Home() {
       <TabsContent value="analysis">
         <Card className="max-w-xl">
           <CardHeader>
-            <CardTitle>✨ Image analysis</CardTitle>
+            <CardTitle>
+              <img src="/icon.png" className="w-6 h-6 inline mr-2" />
+              Image analysis
+            </CardTitle>
             <p className="text-sm text-muted-foreground">
               Upload a food photo, and AI will detect the ingredients.
             </p>
@@ -49,7 +52,11 @@ export default function Home() {
         </Card>
         <Card className="max-w-xl mt-6">
           <CardHeader>
-            <CardTitle>📄 Here is the summary</CardTitle>
+            <CardTitle>
+              {" "}
+              <img src="/vector.png" className="w-6 h-6 inline mr-2" /> Here is
+              the summary
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
